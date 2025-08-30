@@ -1,0 +1,131 @@
+body{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.logo{
+    height: 130px;
+    width: 130px;
+  transition: 0.5s;
+}
+
+.logo:hover{
+     height: 134px;
+    width: 134px;
+}
+
+.nav{
+    font-size: 25px;
+text-shadow: 2px 2px 5px rgb(224, 154, 122);
+color: #e88f6f;
+text-decoration: none;
+transition: 0.5s
+
+}
+
+.nav:hover{
+    background-color: #fde1cc;
+    border-radius: 15px;
+    font-size: 28px;
+}
+
+header{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.qwerty{
+    text-decoration: none;
+        font-size: 21px;
+text-shadow: 2px 2px 5px rgb(224, 137, 122);
+color: #DE8D8C;
+margin: 120px;
+transition: 0.5s;
+}
+
+.navigation{
+  margin-top:10px ;
+}
+
+.qwerty:hover {
+    border: 2px solid orange; 
+    text-decoration: none;
+    border-radius: 8px; 
+    padding: 5px 10px; 
+    color: #DE8D8C;
+    
+}
+
+.back{
+    text-decoration: none;
+    color: #e88f6f;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.back:hover{
+  font-size: 23px;
+}
+
+.photopizza{
+    width: 400px;
+    height: 400px;
+    transition: 0.5s;
+}
+
+.photopizza:hover{
+    width: 410px;
+    height: 410px;
+}
+
+.nazvapizza{
+    color: #EF2415;
+   font-size: 25px;
+   transition: 0.5s;
+}
+
+.nazvapizza:hover{
+    font-size: 28px;
+}
+
+.pizzacard{
+    border: 3px #e88f6f solid;
+    width: 410px;
+    margin-top:20px ;
+     text-align: center;
+     margin-left:220px;
+     
+}
+
+
+.buttonplus{
+    text-decoration: none;
+    color:#EF2415;
+    background-color: #ffd1d1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+} 
+
+.aboutpizza{
+    font-size: 20px;
+    color: #e88f6f;
+    transition: 0.5s;
+}
+
+.aboutpizza:hover{
+  font-size: 24px;
+}
+
+.buttonplus:hover{
+    font-size: 23px;
+}
+
+.first{
+    display: flex;
+}

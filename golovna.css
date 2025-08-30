@@ -1,5 +1,7 @@
+
+
 body{
-   background-image: linear-gradient(to bottom, #ffffff, #feb47b);
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -15,6 +17,7 @@ body{
 text-shadow: 2px 2px 5px rgb(224, 154, 122);
 color: #e88f6f;
 text-decoration: none;
+transition: 0.5s
 
 }
 
@@ -29,21 +32,183 @@ header{
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+
 }
 
 .qwerty{
     text-decoration: none;
-        font-size: 25px;
+        font-size: 23px;
 text-shadow: 2px 2px 5px rgb(224, 137, 122);
 color: #DE8D8C;
 margin: 120px;
-}
-
-.qwerty:hover{
-    background-color: #ffe7db;
-    border-radius: 15px;
+transition: 0.5s;
 }
 
 .navigation{
   margin-top:10px ;
+}
+
+.qwerty:hover {
+    border: 2px solid orange; 
+    text-decoration: none;
+    border-radius: 8px; 
+    padding: 5px 10px; 
+    color: #DE8D8C;
+    
+}
+
+.golovnuu{
+    font-size: 25px;
+color: #DE8D8C; 
+border: #f3ae94;
+border-radius: 20px;
+text-align: center;
+transition: 0.5s;
+background-color: #ffcba4;
+width: 1100px;
+margin: 0 auto; 
+margin-top: 30px;
+}
+
+.golovnuu:hover{
+    text-shadow: 2px 2px 5px rgb(224, 154, 122);
+    font-size: 28px;
+    background-color: #fde1cc;
+    text-align: center;
+}
+
+.pronas{
+    font-size: 30px;
+    text-align: center;
+    background-color: #fde1cc;
+    color: #DE8D8C;
+}
+
+
+
+
+.shef{
+     width: 500px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 60px;
+      border: 4px #ED9C61 dashed;
+    border-radius: 30px;
+        transition: 0.5s;
+}
+
+.oficiant{
+         width: 500px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 60px;
+        border: 4px #ED9C61 dashed;
+    border-radius: 30px;
+        transition: 0.5s;
+}
+
+.proces{
+    display: flex;
+    justify-content: center; 
+
+
+}
+
+.manager{
+         width: 500px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 60px;
+        border: 4px #ED9C61 dashed;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.manager:hover{
+      width: 530px;
+    height: 320px;
+}
+
+.shef:hover{
+      width: 530px;
+    height: 320px;
+}
+
+.oficiant:hover{
+      width: 530px;
+    height: 320px;
+}
+
+.footer {
+  background-color: #ED9C61; 
+  color: #EF2415; 
+   margin-top: 30px;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto; 
+  flex-wrap: wrap; 
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-section h3,.footer-section h2{
+ 
+  margin-bottom: 5px;
+}
+
+.footer-section p {
+  margin: 0;
+  font-size: 14px;
+
+}
+
+.footer-section.address,.footer-section.contacts {
+font-size: 25px;
+  min-width: 150px;
+  transition: 0.5s;
+}
+
+.footer-section.social img {
+  width: 115px; 
+  height: 115px;
+  transition: 0.5s;
+}
+
+.footer-section.logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.footer-section.logo img {
+width: 115px; 
+  height: 115px;
+  margin-right: 10px;
+}
+
+.footer-section.address:hover{
+ font-size: 30px;
+}
+
+.footer-section.contacts:hover{
+    font-size: 30px;
+}
+
+.footer-section.social:hover{
+   width: 125px; 
+  height: 125px;
+}
+
+.footer-section.logo:hover{
+     width: 125px; 
+  height: 125px;
 }
