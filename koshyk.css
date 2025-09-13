@@ -180,8 +180,8 @@ transition: 0.5s;
 
 .dostavochka {
     display: flex;
-    justify-content: center; /* по центру горизонтально */
-    margin-top: 20px; /* необов’язково — відступ зверху */
+    justify-content: center; 
+    margin-top: 20px; 
 }
 .dostavochka img {
     width: 480px;
@@ -189,3 +189,15 @@ transition: 0.5s;
     margin: 20px;
 }
 
+.zabratu{
+  color: #EF2415;
+font-size: 29px;
+background-color: #ffceab;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.5s;
+}
+
+.zabratu:hover{
+  font-size: 33px;
+}
